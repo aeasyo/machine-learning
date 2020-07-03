@@ -1,0 +1,13 @@
+1.先下载torch版本，下载链接有：
+https://blog.csdn.net/qq_27825451/article/details/90033909?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task
+我用的是torch1.0.1
+
+2.下载完成后，pip install torch文件路径（conda install也行，但是conda install经常出错）
+
+3.可以用pip install torchvision安装，如果超时下载不了，就用离线安装，从下面的网址下载适合的版本
+https://pypi.org/project/torchvision/0.1.8/#history
+然后还是pip install 文件路径安装，我用的是torchvision 0.4.1
+
+4.然后在python下输入import numpy以及import torch看是否没有报错，没有报错即正常。
+import torchvision可能会报错说pillow版本过高的问题，可以用pip install Pillow==6.2.2安装，如果下载超时，就用离线安装的方法。
+
